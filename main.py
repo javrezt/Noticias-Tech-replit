@@ -32,7 +32,7 @@ if api_key:
                 openai_api_key = os.environ["OPENAI_API_KEY"]
                 headers = {
                     "Authorization": f"Bearer {openai_api_key}",
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json" 
                 }
 
                 data = {
