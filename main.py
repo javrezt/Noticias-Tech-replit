@@ -24,7 +24,7 @@ if st.button("Buscar"):
             # Configuración de la API de OpenAI
             #openai_api_key = os.environ["OPENAI_API_KEY"]
             headers = {
-                "Authorization": "Bearer app-ETJWaNRdtsfadpSFTHzJcKZV",
+                "Authorization": "Bearer apiki",
                 "Content-Type": "application/json" 
             }
 
