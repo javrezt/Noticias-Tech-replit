@@ -29,9 +29,9 @@ if api_key:
                 body_content = soup.find("body").get_text(separator="\n", strip=True)
 
                 # Configuración de la API de OpenAI
-                openai_api_key = os.environ["OPENAI_API_KEY"]
+                #openai_api_key = os.environ["OPENAI_API_KEY"]
                 headers = {
-                    "Authorization": f"Bearer {openai_api_key}",
+                    "Authorization": "Bearer app-ETJWaNRdtsfadpSFTHzJcKZV",
                     "Content-Type": "application/json" 
                 }
 
