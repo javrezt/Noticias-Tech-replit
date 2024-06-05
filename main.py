@@ -9,15 +9,6 @@ st.subheader("Mastering the Art of Prompt Engineering")
 st.write("---")
 st.header("Noticias tech")
 
-# Solicitar API key al usuario
-api_key = st.text_input("Agrega aquí tu API key (opcional)", type="password")
-
-# Usar la API key proporcionada por el usuario o un valor por defecto
-if api_key:
-    os.environ["OPENAI_API_KEY"] = api_key
-else:
-    os.environ["OPENAI_API_KEY"] = "your_default_api_key_here"
-
 query = st.text_input("¿Qué quieres saber hoy?")
 url = st.text_input("Envíame la URL:")
 
